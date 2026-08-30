@@ -1,0 +1,114 @@
+#######################################
+# Syntax Coloring Map for AmelTech_Climate_plug
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AmelTechClimate	KEYWORD1
+ClimateData	KEYWORD1
+ClimateConfiguration	KEYWORD1
+Location	KEYWORD1
+URLRecord	KEYWORD1
+Sensor	KEYWORD1
+ErrorCode	KEYWORD1
+Event	KEYWORD1
+DataSource	KEYWORD1
+SystemState	KEYWORD1
+WiFiState	KEYWORD1
+ProviderType	KEYWORD1
+SensorType	KEYWORD1
+PlatformType	KEYWORD1
+URLDirection	KEYWORD1
+URLMethod	KEYWORD1
+URLFormat	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+loop	KEYWORD2
+end	KEYWORD2
+restart	KEYWORD2
+reset	KEYWORD2
+factoryReset	KEYWORD2
+isInitialized	KEYWORD2
+isReady	KEYWORD2
+update	KEYWORD2
+updateNow	KEYWORD2
+request	KEYWORD2
+cancelRequest	KEYWORD2
+isUpdating	KEYWORD2
+getClimateData	KEYWORD2
+onDataUpdate	KEYWORD2
+onError	KEYWORD2
+onEvent	KEYWORD2
+setWiFi	KEYWORD2
+connectWiFi	KEYWORD2
+disconnectWiFi	KEYWORD2
+isWiFiConnected	KEYWORD2
+useOpenMeteo	KEYWORD2
+useCustomProvider	KEYWORD2
+getTemperature	KEYWORD2
+getRelativeHumidity	KEYWORD2
+getDewPoint	KEYWORD2
+getApparentTemperature	KEYWORD2
+getAtmosphericPressure	KEYWORD2
+getPrecipitation	KEYWORD2
+getRain	KEYWORD2
+getSnowfall	KEYWORD2
+getWeatherCode	KEYWORD2
+getWeatherCondition	KEYWORD2
+getCloudCover	KEYWORD2
+getWindSpeed	KEYWORD2
+getWindDirection	KEYWORD2
+getWindGusts	KEYWORD2
+getSolarRadiation	KEYWORD2
+getUVIndex	KEYWORD2
+getEvapotranspiration	KEYWORD2
+getSoilTemperature	KEYWORD2
+getSoilMoisture	KEYWORD2
+getFreezingLevel	KEYWORD2
+getVisibility	KEYWORD2
+getCAPE	KEYWORD2
+setLocation	KEYWORD2
+addLocation	KEYWORD2
+editLocation	KEYWORD2
+deleteLocation	KEYWORD2
+selectLocation	KEYWORD2
+addURL	KEYWORD2
+editURL	KEYWORD2
+deleteURL	KEYWORD2
+selectURL	KEYWORD2
+sendClimateDataTX	KEYWORD2
+receiveRX	KEYWORD2
+registerSensor	KEYWORD2
+scanSensors	KEYWORD2
+setMode	KEYWORD2
+enableHybrid	KEYWORD2
+useRemoteData	KEYWORD2
+useLocalData	KEYWORD2
+enableCache	KEYWORD2
+disableCache	KEYWORD2
+clearCache	KEYWORD2
+setRESTEndpoint	KEYWORD2
+setWebhookURL	KEYWORD2
+attachMQTTAdapter	KEYWORD2
+attachBlynkAdapter	KEYWORD2
+publishToAllPlatforms	KEYWORD2
+hasError	KEYWORD2
+getLastError	KEYWORD2
+getErrorMessage	KEYWORD2
+clearError	KEYWORD2
+handleSerialLine	KEYWORD2
+handleSerial	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+REMOTE	LITERAL1
+LOCAL	LITERAL1
+HYBRID	LITERAL1

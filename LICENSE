@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+NOTE ON THIRD-PARTY / EXTERNAL SERVICES:
+This library provides built-in access to the Open-Meteo API
+(https://open-meteo.com), which is separately licensed and operated by
+Open-Meteo. This library's MIT license covers the AmelTech_Climate_plug
+source code only; use of the Open-Meteo API through this library remains
+subject to Open-Meteo's own terms of service, rate limits, and fair-use
+policy. This library does not grant, and does not claim to grant, unlimited
+or guaranteed access to any external API.
