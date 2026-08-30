@@ -47,6 +47,10 @@ the relevant stub is the tiebreaker.
   `URL link add/select/delete/list/test/change`, `sensor scan/status`,
   `cache status/clear`, `network status`, `provider status`,
   `platform status`, `factory reset`
+- All 16 example sketches (`01_Basic` through `16_FullSystem`) — each
+  is a real, working `.ino` file, individually compile-verified
+  against the actual class signatures (see verification note at the
+  bottom of this file).
 
 ## Genuinely NOT implemented (calling these returns a clear message,
 ## not a silent no-op)
@@ -68,9 +72,6 @@ the relevant stub is the tiebreaker.
   and `saveURLsToFlash()` exist and work, but nothing calls them
   automatically after `addLocation()`/`addURL()`/etc. You must call
   them explicitly if you want changes to survive a reboot.
-- **All 16 named example sketches** from the original spec
-  (`01_Basic` through `16_FullSystem`) — the `examples/` directory
-  exists with the correct folder structure but is currently empty.
 - **Full documentation set** (`docs/Architecture.md`, `docs/API.md`,
   `docs/Commands.md`, `docs/OpenMeteo.md`, `docs/Locations.md`,
   `docs/URLs.md`, `docs/Sensors.md`, `docs/Platforms.md`,

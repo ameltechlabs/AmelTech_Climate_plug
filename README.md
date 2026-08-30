@@ -720,12 +720,6 @@ commands genuinely aren't built yet (`sensor read`, `diagnostics`,
 `statistics`). This is expected, not a bug — see
 [PENDING_MODULES.md](PENDING_MODULES.md) for the exact list.
 
-**"I don't see any example sketches besides 01_Basic"** — Correct,
-only that one is written so far. The other 15 folders under
-`examples/` currently contain a short note pointing you to the
-relevant source file instead of working code. See
-[PENDING_MODULES.md](PENDING_MODULES.md).
-
 ## 25. API reference
 
 A full, dedicated `docs/API.md` with every function documented
